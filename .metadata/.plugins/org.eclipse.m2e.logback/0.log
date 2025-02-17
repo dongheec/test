@@ -1,0 +1,204 @@
+2025-02-16 02:16:01,258 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-02-16 02:18:52,397 [Worker-259: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-02-16 02:18:52,403 [Worker-259: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-02-16 02:18:59,970 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-02-16 02:20:05,670 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-archetype/1.0/maven-archetype-archetype-1.0.pom
+2025-02-16 02:20:05,686 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-archetype/1.0/maven-archetype-archetype-1.0.pom
+2025-02-16 02:20:05,702 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom
+2025-02-16 02:20:05,704 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/2/maven-archetype-bundles-2.pom
+2025-02-16 02:20:05,712 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom
+2025-02-16 02:20:05,714 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype-parent/1/maven-archetype-parent-1.pom
+2025-02-16 02:20:05,720 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+2025-02-16 02:20:05,723 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/4/maven-parent-4.pom
+2025-02-16 02:20:05,730 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+2025-02-16 02:20:05,732 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/3/apache-3.pom
+2025-02-16 02:20:05,748 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-archetype/1.0/maven-archetype-archetype-1.0.jar
+2025-02-16 02:20:05,751 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-archetype/1.0/maven-archetype-archetype-1.0.jar
+2025-02-16 02:20:36,387 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409 [298])
+2025-02-16 02:20:36,388 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409
+2025-02-16 02:20:36,388 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\aopalliance-1.0.jar
+2025-02-16 02:20:36,388 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\guice-5.1.0.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpclient-4.5.14.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\httpcore-4.4.16.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jansi-2.4.1.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\jcl-over-slf4j-1.7.36.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-artifact-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-builder-support-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-compat-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-core-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-embedder-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-model-builder-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-plugin-api-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-repository-metadata-3.9.9.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-api-1.9.22.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-02-16 02:20:36,389 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-impl-1.9.22.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-named-locks-1.9.22.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-provider-3.9.9.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-spi-1.9.22.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-file-1.9.22.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-http-1.9.22.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-resolver-util-1.9.22.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-3.9.9.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-settings-builder-3.9.9.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\maven-shared-utils-3.4.2.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-0.0.7.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-build-api-1.2.0.jar
+2025-02-16 02:20:36,390 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-cipher-2.0.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-classworlds-2.8.0.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-component-annotations-2.1.0.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-interpolation-1.27.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-sec-dispatcher-2.0.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-utils-3.5.1.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\plexus-xml-3.0.1.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-file-3.5.3.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-3.5.3.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-http-shared-3.5.3.jar
+2025-02-16 02:20:36,391 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20240824-1409\jars\wagon-provider-api-3.5.3.jar
+2025-02-16 02:20:36,392 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.3.1.jre [10])
+2025-02-16 02:20:36,392 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\com.google.guava_33.3.1.jre.jar
+2025-02-16 02:20:36,392 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.16 [522])
+2025-02-16 02:20:36,392 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\slf4j.api_2.0.16.jar
+2025-02-16 02:20:36,392 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [22])
+2025-02-16 02:20:36,392 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-02-16 02:20:36,392 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [20])
+2025-02-16 02:20:36,393 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\jakarta.annotation-api_1.3.5.jar
+2025-02-16 02:20:36,393 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [47])
+2025-02-16 02:20:36,393 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.apache.commons.cli_1.9.0.jar
+2025-02-16 02:20:36,393 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [50])
+2025-02-16 02:20:36,393 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-02-16 02:20:36,393 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [11])
+2025-02-16 02:20:36,393 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\CHO\.p2\pool\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-02-16 02:20:36,395 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\CHO\AppData\Local\Temp\m2e-archetypeGenerator15729110989004795200":
+2025-02-16 02:20:36,396 [Worker-278: Launching mavenrun-12dbbeab-a5e5-45b8-b70d-58f4fb78ac5e] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-archetype -DarchetypeVersion=1.0 -DgroupId=org.xerial -DartifactId=sqlite-jdbc -Dversion=3.41.2.1 -Dpackage=org.xerial.sqlite_jdbc -DoutputDirectory=C:\Users\CHO\eclipse-workspace -Dstyle.color=always -U archetype:generate
+2025-02-16 02:27:13,572 [Worker-280: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] 'parent.artifactId' must be changed, the parent element cannot have the same groupId:artifactId as the project. @ line 5, column 17
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] 'parent.artifactId' must be changed, the parent element cannot have the same groupId:artifactId as the project. @ line 5, column 17
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-02-16 02:27:44,664 [Worker-211: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[ERROR] For artifact {null:null:null:jar}: The groupId cannot be empty. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml
+[ERROR] 'groupId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml, line 1, column 206
+[ERROR] 'artifactId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml, line 1, column 206
+[ERROR] 'version' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml, line 1, column 206
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[ERROR] For artifact {null:null:null:jar}: The groupId cannot be empty. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml
+[ERROR] 'groupId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml, line 1, column 206
+[ERROR] 'artifactId' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml, line 1, column 206
+[ERROR] 'version' is missing. @ [unknown-group-id]:[unknown-artifact-id]:[unknown-version], C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml, line 1, column 206
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-02-16 02:27:50,473 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-02-16 02:27:50,479 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-02-16 02:27:59,623 [Worker-211: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] 'parent.artifactId' must be changed, the parent element cannot have the same groupId:artifactId as the project. @ line 5, column 17
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] 'parent.artifactId' must be changed, the parent element cannot have the same groupId:artifactId as the project. @ line 5, column 17
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-02-16 02:28:10,292 [Worker-244: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+2025-02-16 02:28:10,332 [Worker-244: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar
+2025-02-16 02:28:10,341 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2025-02-16 02:28:10,343 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+2025-02-16 02:28:10,349 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar
+2025-02-16 02:28:10,350 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar
+2025-02-16 02:28:10,351 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar
+2025-02-16 02:28:10,352 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar
+2025-02-16 02:28:10,353 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar
+2025-02-16 02:28:10,354 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar
+2025-02-16 02:28:10,355 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar
+2025-02-16 02:28:10,358 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-java/1.2.0/plexus-java-1.2.0.jar
+2025-02-16 02:28:10,362 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar
+2025-02-16 02:28:10,363 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
+2025-02-16 02:28:10,364 [BasicRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar
+2025-02-16 02:28:10,365 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar
+2025-02-16 02:28:10,366 [BasicRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.6/asm-9.6.jar
+2025-02-16 02:28:10,370 [BasicRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
+2025-02-16 02:28:10,372 [BasicRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/2.0.3/qdox-2.0.3.jar
+2025-02-16 02:28:10,374 [BasicRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar
+2025-02-16 02:28:10,495 [Worker-244: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.xerial:sqlite-jdbc:3.41.2.1 @ C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml.
+2025-02-16 02:28:10,573 [Worker-244: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar
+2025-02-16 02:28:10,576 [Worker-244: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/file-management/3.1.0/file-management-3.1.0.jar
+2025-02-16 02:28:10,581 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar
+2025-02-16 02:28:10,582 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2025-02-16 02:28:10,582 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar
+2025-02-16 02:28:10,583 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+2025-02-16 02:28:10,589 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar
+2025-02-16 02:28:10,593 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.jar
+2025-02-16 02:28:10,594 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar
+2025-02-16 02:28:10,596 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-io/commons-io/2.16.1/commons-io-2.16.1.jar
+2025-02-16 02:28:10,597 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/3.4.2/plexus-io-3.4.2.jar
+2025-02-16 02:28:10,602 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar
+2025-02-16 02:28:10,602 [BasicRepositoryConnector-repo.maven.apache.org-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar
+2025-02-16 02:28:10,603 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+2025-02-16 02:28:10,668 [BasicRepositoryConnector-repo.maven.apache.org-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/iq80/snappy/snappy/0.4/snappy-0.4.jar
+2025-02-16 02:28:10,679 [BasicRepositoryConnector-repo.maven.apache.org-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+2025-02-16 02:28:10,689 [BasicRepositoryConnector-repo.maven.apache.org-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar
+2025-02-16 02:28:10,822 [BasicRepositoryConnector-repo.maven.apache.org-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/luben/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar
+2025-02-16 02:28:10,999 [Worker-244: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+2025-02-16 02:28:11,002 [Worker-244: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+2025-02-16 02:28:11,007 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar
+2025-02-16 02:28:11,008 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+2025-02-16 02:28:11,008 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+2025-02-16 02:28:11,009 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+2025-02-16 02:28:11,010 [BasicRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar
+2025-02-16 02:28:11,010 [BasicRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+2025-02-16 02:28:11,028 [BasicRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+2025-02-16 02:28:11,080 [BasicRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+2025-02-16 02:28:11,105 [Worker-244: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-16 02:28:11,107 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 02:28:11,109 [Worker-244: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-16 02:28:11,110 [Worker-244: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-02-16 02:28:15,075 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-02-16 02:28:15,149 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.xerial:sqlite-jdbc:3.41.2.1 @ C:\Users\CHO\eclipse-workspace\sqlite-jdbc\pom.xml.
+2025-02-16 02:28:15,190 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sqlite-jdbc/src/main/java
+2025-02-16 02:28:15,193 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sqlite-jdbc/src/main/resources
+2025-02-16 02:28:15,194 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sqlite-jdbc/src/test/java
+2025-02-16 02:28:15,195 [Worker-12: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sqlite-jdbc/src/test/resources
+2025-02-16 02:28:15,243 [Worker-12: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-02-16 02:28:15,379 [Worker-108: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-16 02:28:15,380 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-02-16 02:28:15,382 [Worker-108: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2025-02-16 02:28:15,383 [Worker-108: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-02-17 22:35:06,026 [Worker-9: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

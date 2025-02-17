@@ -1,0 +1,56 @@
+package SQLite;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.time.LocalDate;
+import java.time.chrono.ChronoLocalDate;
+import java.util.Date;
+
+public class InsertMembers {
+	public static void insert(String firstName, String lastName, String gender, String birthDate, int age) {
+		String url = "jdbc:sqlite:C:/databases/cho_family.db";
+		String sql = "INSERT INTO members (first_name, last_name, gender, birth_date, age) "
+				+ "VALUES (?, ?, ?, ?, ?)";
+
+		try (Connection conn = DriverManager.getConnection(url); PreparedStatement pstmt = conn.prepareStatement(sql)) {
+			pstmt.setString(1, firstName);
+			pstmt.setString(2, lastName);
+			pstmt.setString(3, gender);
+			pstmt.setInt(4, age);
+			pstmt.executeUpdate();
+			System.out.println(firstName + " " + lastName + " 데이터 추가 완료!");
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+	public static void main(String[] args) {
+		String birthDate = "19891203";
+		int currentYear = LocalDate.now().getYear();
+		int birthYear = Integer.parseInt(birthDate.substring(0, 4));
+		String birthDay = currentYear+""+birthDate.substring(4, 8); 
+		int koreanAge = currentYear - birthYear + 1;  
+		int age = currentYear - birthYear;
+		System.out.println("birthDate: " + birthDate);
+		System.out.println("currentYear: " + currentYear);
+		System.out.println("birthYear: " + birthYear);
+		System.out.println("birthDay: " + birthDay);
+		System.out.println("koreanAge: " + koreanAge);
+		System.out.println("age: " + age);
+		
+//		if(LocalDate.now().isBefore(LocalDate.of(currentYear, birthDate.substring(4, 6), Integer.parseInt(birthDay.substring(6, 8))) {
+		if(LocalDate.now().isAfter(LocalDate.parse(birthDay)){
+			
+			
+		}
+
+		
+//		insert("John", "Doe", "Male", birthDate, age);
+//		insert("Jane", "Smith", "Female", 25);
+//		insert("Michael", "Johnson", "Male", 40);
+//		insert("Emily", "Davis", "Female", 35);
+//		insert("William", "Brown", "Male", 28);
+	}
+}

@@ -1,0 +1,34 @@
+package MEMBERS_DB;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class createNewTable {
+    public static void createNewTable() {
+        String url = "jdbc:sqlite:C:/databases/cho_family.db";
+
+        // 테이블 컬럼 변경 시, Insert 쿼리에서도 수정해줄 것!! 
+        String sql = "CREATE TABLE IF NOT EXISTS members ("
+                   + " id 			INTEGER PRIMARY KEY AUTOINCREMENT,"
+                   + " first_name 	VARCHAR2 NOT NULL,"
+                   + " last_name 	VARCHAR2 NOT NULL,"
+                   + " gender 		VARCHAR2 CHECK (gender IN ('Male', 'Female')),"
+                   + " birth_date 	VARCHAR2 NOT NULL,"
+                   + " age 			INTEGER CHECK (age >= 0)"
+                   + ");";
+
+        try (Connection conn = DriverManager.getConnection(url);
+             Statement stmt = conn.createStatement()) {
+            stmt.execute(sql);
+            System.out.println("members 테이블이 성공적으로 생성되었습니다.");
+        } catch (SQLException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public static void main(String[] args) {
+        createNewTable();
+    }
+}

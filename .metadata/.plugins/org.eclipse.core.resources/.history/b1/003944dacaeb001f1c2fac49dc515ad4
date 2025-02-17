@@ -1,0 +1,42 @@
+package SQLite;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.time.LocalDate;
+import java.util.Calendar;
+import java.util.Date;
+
+public class InsertMembers {
+	public static void insert(String firstName, String lastName, String gender, String birthDate, int age) {
+		String url = "jdbc:sqlite:C:/databases/cho_family.db";
+		String sql = "INSERT INTO members (first_name, last_name, gender, birth_date, age) "
+				+ "VALUES (?, ?, ?, ?, ?)";
+
+		try (Connection conn = DriverManager.getConnection(url); PreparedStatement pstmt = conn.prepareStatement(sql)) {
+			pstmt.setString(1, firstName);
+			pstmt.setString(2, lastName);
+			pstmt.setString(3, gender);
+			pstmt.setInt(4, age);
+			pstmt.executeUpdate();
+			System.out.println(firstName + " " + lastName + " 데이터 추가 완료!");
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+	public static void main(String[] args) {
+		String birthDate = "19891203";
+		Date date = new Date();
+		int age = date.getYear()-birthDate.indexOf(birthDate, 0, 3);
+		System.out.println(birthDate);
+		System.out.println(date);
+		System.out.println(age);
+//		insert("John", "Doe", "Male", birthDate, age);
+//		insert("Jane", "Smith", "Female", 25);
+//		insert("Michael", "Johnson", "Male", 40);
+//		insert("Emily", "Davis", "Female", 35);
+//		insert("William", "Brown", "Male", 28);
+	}
+}
